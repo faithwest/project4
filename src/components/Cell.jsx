@@ -2,7 +2,6 @@ import React from 'react';
 import { useDrop } from 'react-dnd';
 import { ItemTypes } from './ItemTypes';
 import Piece from './Piece';
-import '../Board.css';
 
 function Cell({ isDark, rowIndex, colIndex, onPieceDrop, boardState, updateBoardState }) {
   const cellStyle = {

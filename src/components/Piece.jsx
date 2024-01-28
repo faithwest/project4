@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useDrag } from 'react-dnd';
 import { ItemTypes } from './ItemTypes';
-import '../Piece.css';
 
 function Piece({ color, position, onPieceMove }) {
   const [isDragging, setIsDragging] = useState(false);
